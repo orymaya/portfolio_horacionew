@@ -1,19 +1,47 @@
 
-  body {
-    font size: 1em;
-    font weight: normal;
-    font-family: arial, sans-serif;
-    color: #000000; /* black */
-    background-color: #B5BEC6
-  }
+/*
+my color scheme
+#D3D3D3 LIGHT GRAY
+#2E40A5 Violet-Blue
+#00285E COOL BLACK
+ #000000; /*black*/
+*/
+body {
+  font size: 1em;
+  font weight: normal;
+  font-family: arial, sans-serif;
+  color: #000000; /* black */
+  background-color: #B5BEC6
+}
 
 
-  h1{
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #0000ff;
-    text-align: center;
-    width: auto;
-    height: auto;
-    border:.4em solid #2660A4;
-  }
+h1{
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border:.3em solid #000;
+  border-radius: .4em;
+  box-shadow: 3px 3px 3px #00f
+}
+h2{
+
+  height: auto;
+  text-align: center;
+  background-color: ##0033cc;
+  border:.2em solid #000;
+  border-radius: .4em;
+  box-shadow: 3px 3px 3px #00f
+}
+p{
+font-size: 15.8;
+font-family: Arial;
+}
+ul{
+color:#2E40A5;
+}
+a{
+color:#00285E;
+}
