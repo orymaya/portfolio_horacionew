@@ -1,1 +1,173 @@
+/*** KERNING & LEADING ASSIGNMENT STYLES ***/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+/* Do not change this style */
+.rectangle {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+}
 
+#kerning {
+  /* Use the letter-spacing property to change the kerning on the text to fill the div below
+
+  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp
+  */
+  letter-spacing:6.111px ;
+}
+
+#leading {
+  /* Use the line-height property to change the leading on the text to fill the div below
+
+  http://www.w3schools.com/cssref/pr_dim_line-height.asp
+  */
+  line-height: 275%
+}
+/*** TEXT ALIGNMENT ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+.align {
+  max-width: 80%;
+  margin: 1em auto;
+}
+
+#left_align {
+  /* Use the text-align property to left-align the text
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+text-align: left;
+}
+
+#right_align {
+  /* Use the text-align property to right-align the text
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+text-align: right;
+}
+
+#justify {
+  /* Use the text-align property to justify the text
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+text-align: justify;
+}
+
+#center {
+  /* Use the text-align property to justify the text
+   http://www.w3schools.com/cssref/pr_text_text-align.asp */
+text-align: center;
+}
+/*** HIERARCHY ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+section {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 560px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+/* Do not change this style */
+section p {
+  font-size: 1.1em;
+  margin: 2em 4em;
+  max-width: 55%;
+color: #000
+}
+
+/* Change this style */
+ #biggerText {
+font-size: 1.6em
+}
+
+/* Change this style */
+ .indent {
+margin-left: 17%
+}
+
+#title {
+  font-size: 2em;
+}
+
+#typ {
+  color: grey;
+}
+
+#paul {
+  font-size: 3em;
+}
+/* Place this at the very top of your typographystyles.css document */
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+font-weight: 100;
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+font-weight: 300;
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+font-weight: 500;
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+font-weight: 700;
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
+font-weight: 900;
+}
+/*
+  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+  * Use two different typefaces (a serif and a sans-serif)
+  * Use at least three different font-sizes
+  * Use a color that contrasts with the background image
+      * Recommended to use the text-shadow property to increase contrast
+  * Use a hierarchy that emphasizes the most important words
+      * Font size, font weight, logical grouping, orientation
+  */
+
+#grandCanyon {
+  background-image: url("../images/grand_canyon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+
+}
+#first{
+  font-size: 3.5em;
+  color: #A72608;
+}
+#second{
+  font-size: 2.5em;
+color: #A72608;
+}
+#third{
+font-size: 2.5em;
+color: #A72608;
+}
+#forth{
+font-size: 2.5em;
+color: #A72608;
+}
+#fifth{
+font-size: 2.5em;
+color: #A72608;
+}

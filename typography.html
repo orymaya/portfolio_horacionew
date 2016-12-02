@@ -44,6 +44,162 @@
    </div>
 
    <main id="main">
+     <h2>Kerning and Leading Assignment</h2>
+     <h3>Kerning</h3>
+     <p>This paragraph uses kerning to completely fill the 800x300px div below.</p>
+     <div id="kerning" class='rectangle'>
+       <strong>Kerning</strong> is an adjustment of the space between two letters. The characters of the Latin alphabet emerged over time; they were never designed with mechanical or automated spacing in mind. Thus some letter combinations look awkward without
+       special spacing considerations. Gaps occur, for example, around letters whose forms angle outward or frame an open space (W, Y, V, T). In metal type, a kerned letter extends past the lead slug that supports it, allowing two letters to fit more closely
+       together. In digital fonts, the space between letter pairs is controlled by a kerning table created by the type designer, which specifies spaces between problematic letter combinations. Working in a page layout program, a designer can choose to use
+       metric kerning or optical kerning as well as adjusting the space between letters manually where desired. A well-designed typeface requires little or no additional kerning, especially at text sizes.
+     </div>
+
+
+     <h3>Leading</h3>
+     <p>This paragraph uses leading to completely fill the 800x300px div below.</p>
+     <div id="leading" class='rectangle'>
+       The distance from the baseline of one line of type to another is called line spacing. It is also called <strong>leading</strong>, in reference to the strips of lead used to separate lines of metal type. The default setting in most layout and imaging
+       software is 120 percent of the type size. Thus 10-pt type is set with 12 pts of line spacing. Designers play with line spacing in order to create distinctive typographic arrangements. Reducing the standard distance creates a denser typographic color,
+       while risking collisions between ascenders and descenders. Expanding the line spacing creates a lighter, more open text block. As leading increases, lines of type become independent graphic elements rather than parts of an overall visual shape and texture.
+     </div>
+     <h2>Text Alignment Assignment</h2>
+     <h3>Left-Align</h3>
+     <p class='align'>This paragraph left-aligns the text.</p>
+     <div id="left_align" class='rectangle'>
+       <p class='align'>
+         In <em>flush left/ragged right</em> text, the left edge is hard and the right edge is soft. Word sapces do not fluctuate, so there are never big holes inside the lines of text. This format, which was used primarily for setting poetry before the twentieth
+         century, respects the flow of language rather than submitting to the law of the box. Despite its advantages, however, the flush left format is fraught with danger. Above all, the designer must work hard to control the appearance of the <em>rag</em>    that frorms along the right edge. A good rag looks pleasantly uneven, with no lines that are excessively long or short, and with hyphenation kept to a minimum. A rag is considered "bad" when it looks too even (or too uneven), or when it begins to
+         form regular shapes, like wedges, moons, or diving boards.
+       </p>
+     </div>
+
+
+     <h3>Right-Align</h3>
+     <p class='align'>This paragraph right-aligns the text.</p>
+     <div id="right_align" class='rectangle'>
+       <p class='align'>
+         <em>Flush right/ragged left</em> is a variant of the more familiar flush left setting. It is common wisdom among typographers that flush right text is hard to read, because it forces the reader's eye to find a new position at the start of each line.
+         This could be true, or it could be an urban legend. That being said, the flush right setting is rarely employed for long bodies of text. Used in smaller blocks, however, flush right text forms effective marginal notes, sidebards, pull quotes, or other
+         passages that comment on a main body or image. A flush or ragged-edge can suggest attraction (or repulsion) between chunks of information.
+       </p>
+     </div>
+
+     <h3>Justify</h3>
+     <p class='align'>This paragraph justifies the text.</p>
+     <div id="justify" class='rectangle'>
+       <p class='align'>
+         <em>Justified text</em>, which has even edges on both the left and right sides of the column, has been the norm since hte invention of printing with movable type, which enabled the creation of page after page of straight-edged columns. In metal type
+         setting, the printer justifies each line by hand, using small metal spacers to alter the spaces between words and letters and thus make all the lines the same length. Digital typesetting performs the same labor automatically. Justified type makes
+         efficient use of space. It also creates a clean, compact shape on the page. Ugly gaps can occur, however, when the line length is too short in relation to the size of type used.
+       </p>
+     </div>
+
+     <h3>Center-align</h3>
+     <p class='align'>This paragraph centers the text.</p>
+     <div id="center" class='rectangle'>
+       <p class='align'>
+         <em>Centered text</em> is symmetrical, <br> like the facade of a classical building. <br> Centered type often appears on <br>invitations, title pages, certificates, and tomb stones. <br> The edges of a centered column <br>are often dramatically uneven. <br> Centered lines should be broken to emphasize a key phrase <br> (such as the name of the bride or the date of her wedding) <br> or to allow a new thought to begin on its own line. <br> Breaking lines in this manner is called <br><em>breaking for sense.</em>
+       </p>
+     </div>
+     <h2>Information Hierachy Assignment</h2>
+
+<h3>Hierarchy: Ordered Information</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Logical Grouping</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Changing Weights</h3>
+<section>
+  <!-- Make each line below appear on its own separate line in the browser. Then, add spacing to group the information logically. Next, bold the title of the lecture, and reorganize your content according to the article's layout. -->
+  <p>
+    The Typography of Paul Rand with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands,
+    book covers, and advertising work.
+  </p>
+</section>
+
+<h3>Hierarchy: Changing Type Size</h3>
+<section>
+  <!-- Complete all steps above, then make the size of the lecture title to 1.6em -->
+  <p>
+    <span id='biggerText'>The Typography of Paul Rand</span> with Lewis Blackwell Shattuck Hall - 7:00 pm March 30, 2011 Design Lecture Series Portland State University Art Department With wit and wisdom, Blackwell dissects the patterns of Rand's use
+    of typography throughout his brands, book covers, and advertising work.
+  </p>
+</section>
+
+
+<h3>Hierarchy: Varying Alignment & Spacing</h3>
+<section>
+  <!-- CHALLENGE: Can you organize the text below in the same way as the fifth layout in the Typekit article? Give it a try! Organize each piece of content into its own div, and give classes to the divs you want to behave similarly. Style those divs with CSS. -->
+  <div id='title'>
+    <span id='typ'>The Typography of</span> <span id='paul'></span>Paul Rand with Lewis Blackwell
+  </div>
+
+  <div class='indent'>
+    Shattuck Hall - 7:00 pm March 30, 2011
+  </div>
+
+  <div class='indent'>
+    Design Lecture Series Portland State University Art Department
+  </div>
+
+  <div class='indent'>
+    With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands, book covers, and advertising work.
+  </div>
+
+</section>
+<h2>Contrast Assignment</h2>
+<h3>Font Weights</h3>
+<div class="rectangle">
+
+  <!-- In this assignment, take note how I target each individual DIV in my stylesheet. In the HTML, I have given each DIV a unique ID attribute, then I select that unique DIV with a hashtag, followed by the name of the ID.
+
+Also, take note of how I select for all the DIVs that have a class of 'weights'. I target those DIVs in the stylesheet with a period, followed by the name of the class. -->
+
+  <div id="weight1" class='weights'>This is font weight 1.</div>
+  <div id="weight2" class='weights'>This is font weight 2.</div>
+  <div id="weight3" class='weights'>This is font weight 3.</div>
+  <div id="weight4" class='weights'>This is font weight 4.</div>
+  <div id="weight5" class='weights'>This is font weight 5.</div>
+</div>
+<!--
+  In this assignment, it is highly recommended that you separate your HTML text content into DIVs and/or SPANs, then give them unique ID attributes to style each group individually, or common CLASS attributes to style common groups of elements.
+
+  Remember, to target an element with an ID attribute in your stylesheet, use a hashtag (#) before the ID name. (If <div id="sample"></div>, then the selector is #sample).
+
+  To target an element with a CLASS attribute in your stylesheet, use a period (.) before the ID name. (If <div class="example"></div>, then the selector is .example).
+-->
+
+<h3>Poster Assignment</h3>
+<div id="grandCanyon">
+  <div id="first">
+    Grand Canyon National Park`
+  </div>
+<div id="second">
+    277 miles long
+</div>
+<div id="third">
+  up to 18 miles wide
+</div>
+<div id="forth">
+  over a mile deep
+</div>
+<div id="fifth">
+  plan your visit: nps.gov/grca
+
+</div>
 
   </body>
   </html>
