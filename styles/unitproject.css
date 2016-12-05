@@ -1,4 +1,6 @@
-h1{
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Serif');
+
+.quote2{
   font-family: 'Dancing Script', serif;
   font-size: 1.8em;
   font-weight: bold;
@@ -8,10 +10,12 @@ h1{
   height: auto;
   border:.3em solid #000;
   border-radius: .4em;
-  box-shadow: 3px 3px 3px #00f
+  box-shadow: 3px 3px 3px #00f;
+  text-shadow: 3px 3px 3px #5762D5;
+letter-spacing: normal;
 }
 
-h2{
+.quote1{
 font-family: 'Noto Serif', serif;
   font-size: 1.4em;
   font-weight: bold;
@@ -21,6 +25,16 @@ font-family: 'Noto Serif', serif;
   height: auto;
   border:.3em solid #000;
   border-radius: .4em;
-  background-color: #001242
-  box-shadow: 3px 3px 3px #00f
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #00f;
+  text-shadow: 3px 3px 3px #5762D5;
+line-height: inherit;
+  }
+
+  h1{
+text-align: center;
+border:.3em solid #000;
+border-radius: .4em;
+box-shadow: 3px 3px 3px #00f;
+text-shadow: 3px 3px 3px #5762D5;
   }
