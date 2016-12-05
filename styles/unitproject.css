@@ -1,0 +1,26 @@
+h1{
+  font-family: 'Dancing Script', serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #001242;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border:.3em solid #000;
+  border-radius: .4em;
+  box-shadow: 3px 3px 3px #00f
+}
+
+h2{
+font-family: 'Noto Serif', serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border:.3em solid #000;
+  border-radius: .4em;
+  background-color: #001242
+  box-shadow: 3px 3px 3px #00f
+  }
